@@ -7,6 +7,7 @@ exports = async function(changeEvent) {
     const db = mongodb.db('caixa');
     const collection = db.collection('financing');
 
+
     const updateOperations = {
       $set: {
         outstanding_balance: doc.outstanding_balance
