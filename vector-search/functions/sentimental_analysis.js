@@ -10,6 +10,8 @@ exports = async function(changeEvent) {
     }
 };
 
+//API CALL
+
 async function processDocument(doc) {
     const url = 'https://api-inference.huggingface.co/models/finiteautomata/bertweet-base-sentiment-analysis';
     const hf_read_token = context.values.get("HF_value");
