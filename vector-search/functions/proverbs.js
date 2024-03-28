@@ -18,7 +18,6 @@ exports = async function(changeEvent) {
             })
         });
 
-
         let responseData = EJSON.parse(response.body.text());
 
         if(response.statusCode === 200) {
