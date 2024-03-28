@@ -1,6 +1,5 @@
 exports = async function(changeEvent) {
     const doc = changeEvent.fullDocument;
-
     const url = 'https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2';
     const hf_read_token = context.values.get("HF_value");
 
