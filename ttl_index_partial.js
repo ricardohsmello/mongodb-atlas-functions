@@ -4,6 +4,7 @@ function sleep(milliseconds) {
     while (new Date().getTime() < start + milliseconds);
 }
 
+//Loop 10 
 for (i = 0; i < 10; i++) {
     v_status = 'FINISHED' 
 
