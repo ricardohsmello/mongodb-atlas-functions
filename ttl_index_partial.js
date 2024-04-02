@@ -1,3 +1,4 @@
+//Function created to simulate a difference in createAt time
 function sleep(milliseconds) {
     var start = new Date().getTime();
     while (new Date().getTime() < start + milliseconds);
